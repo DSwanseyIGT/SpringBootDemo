@@ -35,13 +35,14 @@ public class DemoApplication {
 //		System.out.println(welcomeMessage.getWelcomeMessage());
 	}
 
-	@Bean
-	UserHttpClient userHttpClient() {
-		RestClient restClient = RestClient.create("http://jsonplaceholder.typicode.com/");
-		HttpServiceProxyFactory factory = HttpServiceProxyFactory.builderFor(RestClientAdapter.create(restClient)).build();
-		return factory.createClient(UserHttpClient.class);
-	}
-//
+//	@Bean
+//	UserHttpClient userHttpClient() {
+//		RestClient restClient = RestClient.create("http://jsonplaceholder.typicode.com/");
+//		HttpServiceProxyFactory factory = HttpServiceProxyFactory.builderFor(RestClientAdapter.create(restClient)).build();
+//		return factory.createClient(UserHttpClient.class);
+//	}
+
+
 //	@Bean
 //	CommandLineRunner runner(EngineerService engineerService) {
 //		return args -> {
@@ -49,5 +50,7 @@ public class DemoApplication {
 //			log.info("List of engineers: " + engineers);
 //		};
 //	}
+
+
 
 }

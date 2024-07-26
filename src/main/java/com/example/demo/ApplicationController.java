@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("rest/auth")
-public class UseForDemo {
+public class ApplicationController {
 
     @GetMapping("/welcome")
     public String welcome() {

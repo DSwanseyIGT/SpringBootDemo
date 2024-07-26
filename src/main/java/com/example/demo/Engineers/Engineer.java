@@ -34,7 +34,6 @@ public class Engineer{
 
         private Long experience;
 
-        // @OneToMany
         @JoinColumn(name = "project.id")
         private Long projectId;
 
