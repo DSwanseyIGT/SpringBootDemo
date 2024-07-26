@@ -1,0 +1,41 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "site": "Rhode Island",
+      "projectManagerId": 9
+    },    {
+      "id": 2,
+      "site": "New Jersey",
+      "projectManagerId": 10
+    },    {
+      "id": 3,
+      "site": "Michigan",
+      "projectManagerId": 9
+    },    {
+      "id": 4,
+      "site": "New York",
+      "projectManagerId": 9
+    },    {
+      "id": 5,
+      "site": "Colorado",
+      "projectManagerId": 9
+    },    {
+      "id": 6,
+      "site": "Hawaii",
+      "projectManagerId": 10
+    },    {
+      "id": 7,
+      "site": "I'm sorry I really have no idea",
+      "projectManagerId": 9
+    },    {
+      "id": 8,
+      "site": "ITALY",
+      "projectManagerId": 10
+    },    {
+      "id": 9,
+      "site": "NOT ASSIGNED",
+      "projectManagerId": 9
+    }
+  ]
+}
